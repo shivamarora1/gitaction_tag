@@ -9,5 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: status of repo
-        run: git status
+      - name: Tag current repo code
+        run: |
+          git tag v1.0.0
+          git push origin v1.0.0
