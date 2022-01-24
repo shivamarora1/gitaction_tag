@@ -1,0 +1,12 @@
+name: auto_tag
+on:
+  push:
+    branches:
+      - main
+jobs:
+  tag_repo:
+    name: Get runner id and tag the current code snapshot
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display the path
+        run: echo $PATH
