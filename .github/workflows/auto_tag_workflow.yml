@@ -8,5 +8,5 @@ jobs:
     name: Get runner id and tag the current code snapshot
     runs-on: ubuntu-latest
     steps:
-      - name: Display the path
-        run: echo $PATH
+      - name: status of repo
+        run: git status
