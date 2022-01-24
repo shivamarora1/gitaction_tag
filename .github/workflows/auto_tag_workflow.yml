@@ -8,5 +8,6 @@ jobs:
     name: Get runner id and tag the current code snapshot
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: status of repo
         run: git status
