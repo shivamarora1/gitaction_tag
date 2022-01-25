@@ -1,4 +1,4 @@
-This repository contains a **GitHub Action** which will tag the repository whenever there is a push on the **master** branch. Normally developers tend to forget tagging the repository whenever some new stable code is merged on the **master** branch and eventually deployed on **production**. This workflow aims to automate the tagging process whenever there is a new deployment on **master** branch.
+This repository contains a **GitHub Action** which will tag the repository whenever there is a push on the **main** branch. Normally developers tend to forget tagging the repository whenever some new stable code is merged on the **main** branch and eventually deployed on **production**. This workflow aims to automate the tagging process whenever there is a new deployment on **main** branch.
 
 Some background on **Git tag** and **GitHub actions**
 
