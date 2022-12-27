@@ -11,5 +11,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: Tag and push current repo code
         run: |
-          git tag 'v1.0.5'
-          git push origin ${{github.run_id}}
+          git tag v1.0.5
+          git push origin v1.0.5
