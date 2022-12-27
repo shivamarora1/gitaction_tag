@@ -17,3 +17,5 @@ Tags are like way to create a **snapshot** of Git repo. Git tags are reference t
 GitHub Actions is a platform that helps to automate the processes in software build, test, and deployment pipeline. You can create workflows in GitHubs actions which will executes whenever there is event/events occurred in git repository. Some examples of such events are push to a particular branch, creation of new issue, pull request etc. GitHub actions also provides facility to run workflow manually or in some cron job like timely maner.
 
 [*More info on GitHub actions*](https://docs.github.com/en/actions/)
+
+TEWST
